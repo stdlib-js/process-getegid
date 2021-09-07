@@ -80,6 +80,24 @@ console.log( 'gid: %d', gid );
 
 <!-- /.examples -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/process/geteuid`][@stdlib/process/geteuid]: return the effective numeric user identity of a calling process.
+-   [`@stdlib/process/getgid`][@stdlib/process/getgid]: return the numeric group identity of a calling process.
+-   [`@stdlib/process/getuid`][@stdlib/process/getuid]: return the numeric user identity of a calling process.
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 
 <section class="main-repo" >
 
@@ -136,6 +154,16 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/process-getegid/main/LICENSE
 
 [getegid]: http://man7.org/linux/man-pages/man2/getegid.2.html
+
+<!-- <related-links> -->
+
+[@stdlib/process/geteuid]: https://github.com/stdlib-js/process-geteuid
+
+[@stdlib/process/getgid]: https://github.com/stdlib-js/process-getgid
+
+[@stdlib/process/getuid]: https://github.com/stdlib-js/process-getuid
+
+<!-- </related-links> -->
 
 </section>
 
