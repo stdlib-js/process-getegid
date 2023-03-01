@@ -24,14 +24,30 @@ limitations under the License.
 
 > Return the effective numeric group identity of the calling process.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/process-getegid
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import getegid from 'https://cdn.jsdelivr.net/gh/stdlib-js/process-getegid@deno/mod.js';
+var getegid = require( '@stdlib/process-getegid' );
 ```
 
 #### getegid()
@@ -62,7 +78,7 @@ var id = getegid();
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import getegid from 'https://cdn.jsdelivr.net/gh/stdlib-js/process-getegid@deno/mod.js';
+var getegid = require( '@stdlib/process-getegid' );
 
 var gid = getegid();
 console.log( 'gid: %d', gid );
@@ -80,9 +96,9 @@ console.log( 'gid: %d', gid );
 
 ## See Also
 
--   <span class="package-name">[`@stdlib/process/geteuid`][@stdlib/process/geteuid]</span><span class="delimiter">: </span><span class="description">return the effective numeric user identity of a calling process.</span>
--   <span class="package-name">[`@stdlib/process/getgid`][@stdlib/process/getgid]</span><span class="delimiter">: </span><span class="description">return the numeric group identity of a calling process.</span>
--   <span class="package-name">[`@stdlib/process/getuid`][@stdlib/process/getuid]</span><span class="delimiter">: </span><span class="description">return the numeric user identity of a calling process.</span>
+-   <span class="package-name">[`@stdlib/process-geteuid`][@stdlib/process/geteuid]</span><span class="delimiter">: </span><span class="description">return the effective numeric user identity of a calling process.</span>
+-   <span class="package-name">[`@stdlib/process-getgid`][@stdlib/process/getgid]</span><span class="delimiter">: </span><span class="description">return the numeric group identity of a calling process.</span>
+-   <span class="package-name">[`@stdlib/process-getuid`][@stdlib/process/getuid]</span><span class="delimiter">: </span><span class="description">return the numeric user identity of a calling process.</span>
 
 </section>
 
@@ -97,7 +113,7 @@ console.log( 'gid: %d', gid );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -161,11 +177,11 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/process/geteuid]: https://github.com/stdlib-js/process-geteuid/tree/deno
+[@stdlib/process/geteuid]: https://github.com/stdlib-js/process-geteuid
 
-[@stdlib/process/getgid]: https://github.com/stdlib-js/process-getgid/tree/deno
+[@stdlib/process/getgid]: https://github.com/stdlib-js/process-getgid
 
-[@stdlib/process/getuid]: https://github.com/stdlib-js/process-getuid/tree/deno
+[@stdlib/process/getuid]: https://github.com/stdlib-js/process-getuid
 
 <!-- </related-links> -->
 
