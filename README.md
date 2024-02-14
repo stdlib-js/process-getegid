@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import getegid from 'https://cdn.jsdelivr.net/gh/stdlib-js/process-getegid@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/process-getegid/tags). For example,
+
+```javascript
 import getegid from 'https://cdn.jsdelivr.net/gh/stdlib-js/process-getegid@v0.2.0-deno/mod.js';
 ```
 
@@ -73,7 +78,7 @@ var id = getegid();
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import getegid from 'https://cdn.jsdelivr.net/gh/stdlib-js/process-getegid@v0.2.0-deno/mod.js';
+import getegid from 'https://cdn.jsdelivr.net/gh/stdlib-js/process-getegid@deno/mod.js';
 
 var gid = getegid();
 console.log( 'gid: %d', gid );
