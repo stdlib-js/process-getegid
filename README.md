@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import getegid from 'https://cdn.jsdelivr.net/gh/stdlib-js/process-getegid@deno/mod.js';
+import getegid from 'https://cdn.jsdelivr.net/gh/stdlib-js/process-getegid@v0.2.2-deno/mod.js';
 ```
 
 #### getegid()
@@ -73,7 +73,7 @@ var id = getegid();
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import getegid from 'https://cdn.jsdelivr.net/gh/stdlib-js/process-getegid@deno/mod.js';
+import getegid from 'https://cdn.jsdelivr.net/gh/stdlib-js/process-getegid@v0.2.2-deno/mod.js';
 
 var gid = getegid();
 console.log( 'gid: %d', gid );
