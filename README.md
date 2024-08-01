@@ -35,43 +35,32 @@ limitations under the License.
 
 > Return the effective numeric group identity of the calling process.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/process-getegid
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-getegid = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/process-getegid@umd/browser.js' )
-```
-The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/process-getegid/tags). For example,
-
-```javascript
-getegid = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/process-getegid@v0.2.2-umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var getegid = require( 'path/to/vendor/umd/process-getegid/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/process-getegid@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.getegid;
-})();
-</script>
+var getegid = require( '@stdlib/process-getegid' );
 ```
 
 #### getegid()
@@ -101,21 +90,11 @@ var id = getegid();
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/process-getegid@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var getegid = require( '@stdlib/process-getegid' );
 
 var gid = getegid();
 console.log( 'gid: %d', gid );
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -177,8 +156,8 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/process-getegid.svg
 [npm-url]: https://npmjs.org/package/@stdlib/process-getegid
 
-[test-image]: https://github.com/stdlib-js/process-getegid/actions/workflows/test.yml/badge.svg?branch=v0.2.2
-[test-url]: https://github.com/stdlib-js/process-getegid/actions/workflows/test.yml?query=branch:v0.2.2
+[test-image]: https://github.com/stdlib-js/process-getegid/actions/workflows/test.yml/badge.svg?branch=main
+[test-url]: https://github.com/stdlib-js/process-getegid/actions/workflows/test.yml?query=branch:main
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/process-getegid/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/process-getegid?branch=main
@@ -214,11 +193,11 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/process/geteuid]: https://github.com/stdlib-js/process-geteuid/tree/umd
+[@stdlib/process/geteuid]: https://github.com/stdlib-js/process-geteuid
 
-[@stdlib/process/getgid]: https://github.com/stdlib-js/process-getgid/tree/umd
+[@stdlib/process/getgid]: https://github.com/stdlib-js/process-getgid
 
-[@stdlib/process/getuid]: https://github.com/stdlib-js/process-getuid/tree/umd
+[@stdlib/process/getuid]: https://github.com/stdlib-js/process-getuid
 
 <!-- </related-links> -->
 
